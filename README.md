@@ -24,7 +24,7 @@ Uma aplicação web futurista e interativa para gerar tabuadas com design modern
 ## 🚀 Como Usar
 
 ### Opção 1: Acesse Online
-Visite a aplicação em funcionamento: [Tabuada Quantum](https://luccaozorio.github.io/tabuada-quantum)
+Visite a aplicação em funcionamento: [Tabuada Quantum](https://calculadora-tabuada.vercel.app/)
 
 ### Opção 2: Execute Localmente
 
@@ -120,4 +120,5 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 <div align="center">
 Feito com ❤️ e muita matemática por <b>Lucca Ozorio</b><br>
 ⭐️ Se você gostou, considere dar uma estrela no repositório!
+
 </div>
