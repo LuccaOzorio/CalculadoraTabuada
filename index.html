@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada Quantum</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="math-grid"></div>
+
+    <div class="header">
+        <h1 class="glowing">TABUADA QUANTUM</h1>
+        <h2>Digite o número e confirme para gerar uma tabuada </h2>
+    </div>
+
+    <div class="container">
+        <div class="calculator-card fade-in">
+            <form id="multiplication-form">
+                <div class="form-row">
+                    <div class="form-control">
+                        <label for="number"><i class="fas fa-calculator"></i> Tabuada do:</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-hashtag input-icon"></i>
+                            <input type="number" name="number" id="number" placeholder="3" min="1" max="1000" value="3">
+                        </div>
+                    </div>
+                    <div class="form-control">
+                        <label for="multiplicator"><i class="fas fa-infinity"></i> Multiplicar até:</label>
+                        <div class="input-wrapper">
+                            <i class="fas fa-arrow-up input-icon"></i>
+                            <input type="number" name="multiplicator" id="multiplicator" placeholder="10" min="1"
+                                max="100" value="10">
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="CALCULAR TABUADA">
+            </form>
+        </div>
+
+        <div class="results-container fade-in">
+            <h2 id="multiplication-title">Tabuada do número: <span id="current-number">---</span></h2>
+            <div id="multiplication-operations">
+                <p>Informe um número para calcular uma tabuada...</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="developer">
+                <i class="fas fa-code"></i>
+                Desenvolvido por Lucca Ozorio
+            </div>
+            <div class="copyright">
+                © 2023 Tabuada Quantum
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
