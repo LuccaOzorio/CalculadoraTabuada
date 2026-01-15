@@ -97,10 +97,6 @@ Contribuições são bem-vindas! Siga estes passos:
 4. Push para a branch (`git push origin feature/incrivel`)
 5. Abra um Pull Request
 
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
 ## 👨‍💻 Autor
 
 **Lucca Ozorio** - Desenvolvedor Front-end
@@ -122,3 +118,4 @@ Feito com ❤️ e muita matemática por <b>Lucca Ozorio</b><br>
 ⭐️ Se você gostou, considere dar uma estrela no repositório!
 
 </div>
+
